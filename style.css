@@ -1,0 +1,36 @@
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(167, 100, 71, .8);
+  text-align: center;
+  height: 300px;
+  border-radius: 50px;
+  width: 400px;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+}
+
+body {
+  background: url(ship.jpg);
+  no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+button {
+  border-radius: 50px;
+  background: black;
+  color: rgb(227, 182, 116);
+  font-size: 20px;
+}
